@@ -58,26 +58,6 @@ footer {
 .imagenes h2 {
   text-align: center; }
 
-.conjunto1 img {
-  max-height: 100%;
-  width: 28%;
-  max-width: 100%;
-  float: none;
-  margin: 0.70%; }
-
-.conjunto2 img {
-  max-height: 100%;
-  width: 28%;
-  max-width: 100%;
-  float: left;
-  margin: 0.83%; }
-
-.conjunto1 {
-  margin-left: 6.11%; }
-
-.conjunto2 {
-  margin-left: 6.11%; }
-
 .footer-content h2 {
   font-size: 30px; }
 
@@ -85,8 +65,10 @@ footer {
   color: white;
   font-style: bold;
   float: right;
-  margin-top: 10.41%;
-  margin-right: 7.29%; }
+  width: 548px;
+  margin-top: 139px;
+  padding-bottom: 100px;
+  padding-right: 150px; }
 
 .iconos-footer {
   float: left; }
@@ -98,21 +80,25 @@ footer {
   list-style: none;
   color: white;
   float: right;
-  margin-right: 2.08%;
+  margin-right: 5%;
   text-transform: bold;
   font-size: 18px; }
 
 .footer-list {
-  margin-right: 35%; }
+  padding-right: 30%; }
+
+.footer-list ul {
+  margin: 0;
+  padding: 0; }
 
 .footer-list li {
-  margin-top: 2.08%; }
+  padding-top: 2.08%; }
 
 .img-footer {
   text-align: center;
-  margin: 2.08%; }
+  padding: 2.08%; }
 
-.second-footer p {
+.second-footer {
   text-align: center;
   color: white; }
 
@@ -122,14 +108,80 @@ footer {
 .footer {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
-  height: 550px; }
+  width: 100%;
+  height: 100%; }
 
 .iconos-footer {
-  margin-top: 18.05%;
-  margin-left: 20.83%; }
+  padding-top: 18.05%;
+  padding-left: 20.83%; }
 
 .second-footer {
-  margin-top: -20px; }
+  padding-top: -20px; }
+
+#grupo-img {
+  padding-left: 120px;
+  position: relative; }
+
+.img-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 280px;
+  right: 940px;
+  padding: 10px 51px 10px 51px; }
+
+.img-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 280px;
+  right: 530px;
+  padding: 10px 51px 10px 51px; }
+
+.img-3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 285px;
+  right: 130px;
+  padding: 10px 51px 10px 51px; }
+
+.img-4 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 22px;
+  right: 940px;
+  padding: 10px 51px 10px 51px; }
+
+.img-5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 10px;
+  right: 530px;
+  padding: 10px 51px 10px 51px; }
+
+.img-6 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  position: absolute;
+  bottom: 22px;
+  right: 130px;
+  padding: 10px 51px 10px 51px; }
 
 @media (max-width: 1023px) {
   .background-header {
@@ -147,29 +199,85 @@ footer {
     width: 28%;
     max-width: 100%;
     float: none;
-    margin: 2%; }
+    padding: 2%; }
   .title {
-    margin-left: 50px; }
+    padding-left: 50px; }
   .conjunto2 img {
     max-height: 100%;
     width: 28%;
     max-width: 100%;
     float: none;
-    margin: 2%; }
+    padding: 2%; }
   .iconos-footer {
-    margin: 50px; }
+    padding: 50px;
+    float: none;
+    text-align: center; }
   .footer-content {
+    float: none;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 200px; }
+  .footer-content h2 {
+    margin: 0;
     text-align: center;
-    margin: 50px;
-    margin-right: 180px; }
+    padding: 0;
+    padding-bottom: 20px; }
+  .footer-content p {
+    margin: 0;
+    text-align: center;
+    padding: 0; }
   .footer-list {
-    margin-right: 250px; } }
+    padding-right: 270px; }
+  .img-1 {
+    bottom: 560px;
+    right: 470px; }
+  .img-2 {
+    bottom: 550px;
+    right: 60px; }
+  .img-3 {
+    bottom: 289px;
+    right: 460px; }
+  .img-4 {
+    bottom: 300px;
+    right: 60px; }
+  .img-5 {
+    bottom: 8px;
+    right: 462px; }
+  .img-6 {
+    bottom: 7px;
+    right: 58px; } }
 
 @media (max-width: 767px) {
   .footer-list {
     margin: 0;
-    margin-right: 25px; }
+    padding-right: 25px; }
   .footer-content {
-    margin-right: 25px; }
+    margin-bottom: 20px;
+    width: 448px;
+    float: none;
+    padding: 18px;
+    margin-left: 15px; }
+  #grupo-img {
+    padding-left: 75px; }
   .iconos-footer {
-    margin-left: 175px; } }
+    padding-top: 30px;
+    text-align: center;
+    float: none; }
+  .img-1 {
+    bottom: 1380px;
+    right: 65px; }
+  .img-2 {
+    bottom: 1088px;
+    right: 58px; }
+  .img-3 {
+    bottom: 830px;
+    right: 60px; }
+  .img-4 {
+    bottom: 550px;
+    right: 65px; }
+  .img-5 {
+    bottom: 280px;
+    right: 60px; }
+  .img-6 {
+    bottom: 10px;
+    right: 60px; } }

@@ -18,35 +18,79 @@
         width: 28%;
         max-width: 100%;
         float: none;
-        margin: 2%;
+        padding: 2%;
     }
     
     .title{
-        margin-left: 50px;
+        padding-left: 50px;
     }
     .conjunto2 img {
         max-height: 100%;
         width: 28%;
         max-width: 100%;
         float: none;
-        margin: 2%;
+        padding: 2%;
     }
 
     .iconos-footer{
-        margin: 50px;
+        padding: 50px;
+        float: none;
+        text-align: center;
     }
 
     .footer-content{
+        float: none;
+        margin: 0;
+        padding-bottom: 50px;
+        padding-left: 200px;
+    }
+
+    .footer-content h2{
+        margin: 0;
         text-align: center;
-        margin: 50px;
-        margin-right: 180px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .footer-content p {
+        margin: 0;
+        text-align: center;
+        padding: 0;
     }
 
 
     .footer-list {
-        margin-right: 250px;
+        padding-right: 270px;
     }
 
+    .img-1{
+        bottom: 560px;
+        right: 470px;
+    }
+
+    .img-2{
+        bottom: 550px;
+        right: 60px;
+    }
+
+    .img-3{
+        bottom: 289px;
+        right: 460px;
+    }
+
+    .img-4{
+        bottom: 300px;
+        right: 60px;
+    }
+
+    .img-5{
+        bottom: 8px;
+        right: 462px;
+    }
+
+    .img-6{
+        bottom: 7px;
+        right: 58px;
+    }
 }
 
 
